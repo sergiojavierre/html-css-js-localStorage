@@ -1,0 +1,36 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav {
+  background: gray;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav * {
+  padding: 5px;
+  color: white;
+  align-self: center;
+}
+
+nav label:hover {
+  color: red;
+  cursor: pointer;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+section form {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+section * {
+  margin: 5px;
+}
